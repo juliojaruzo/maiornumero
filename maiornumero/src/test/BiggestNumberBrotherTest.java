@@ -15,7 +15,7 @@ public class BiggestNumberBrotherTest {
         int biggestMiddle = biggestNumber.biggestNumberBrother(213);
         assertEquals(biggestMiddle, 321);
 
-        int biggestHigherInt = biggestNumber.biggestNumberBrother(7492387438);
+        int biggestHigherInt = biggestNumber.biggestNumberBrother(2147483647);
         assertEquals(biggestHigherInt, 0);
 
         int biggestLimitInferior = biggestNumber.biggestNumberBrother(0);
